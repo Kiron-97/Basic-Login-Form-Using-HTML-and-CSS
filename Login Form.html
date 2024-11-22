@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    </div class="field">
+    <fieldset>
+        <legend>Form:</legend>
+        <form action="post">
+            <div class="field">
+                <label for="name">
+                    Name
+                </label>
+                <input type="text" id="name" required placeholder="Kiron">
+            </div>
+            <div class="field">
+                <label for="email">
+                    Email
+                </label>
+                <input type="email" id="email" class="margin" required
+                placeholder="example@gmail.com">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="field2">
+                <label for="gender">
+                    Gender:
+                </label>
+                <span class="field" id="right">
+                    <input type="radio" name="gender" id="Male" value="male"><label for="Male">Male</label>
+
+                    <input type="radio" name="gender" value="Female" id="Female"><label for="Female">Female</label>
+
+                    <input type="radio" name="gender" value="others" id="Others"><label for="Others">Others</label>
+                </span>
+            </div>
+            <button id="btn">Login</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+button{
+    background-color:rgb(35, 189, 61);
+    color: rgb(229, 233, 22);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 125px;
+    padding: 5px;
+}
+button:hover{
+    background-color:aqua;
+    color: black;
+}
+button:focus{
+    outline: 2px dashed blue;
+    background-color: black;
+    color: white;
+    outline-offset:  2px; 
+
+}
+input:focus{
+    background-color:rgb(189, 247, 178) ;
+}
+input{
+    border: 2px solid black;
+}
+fieldset{
+    height: 200px;
+    background-color: aliceblue;
+    width: 300px;}
+
+#name{
+    margin-left: 23px;
+}
+#email{
+    margin-left: 23px;
+}
+.field{
+    margin-bottom: 10px;
+}
+#right{
+    border: 2px solid black;
+    padding: 2px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+div{
+    border-radius: 5px;
+}
+input{
+    border-radius: 5px;
+}
+
+.field2{
+    margin-top: 10px;
+}
